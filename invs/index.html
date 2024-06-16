@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnetic Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container-wrapper">
+        <div class="left-container">
+            <h2>Left Container</h2>
+            <p>This is some content in the left container.</p>
+        </div>
+        
+        <div class="container">
+            <h1>Year 11 Investigating Science</h1>
+            <canvas id="canvas"></canvas>
+            <div class="slider-container">
+                <label for="strengthInput">Strength:</label>
+                <input type="range" id="strengthInput" min="0" max="500" value="150" class="slider">
+            </div>
+            <div class="slider-container">
+                <label for="numFilingsInput">Number of Filings:</label>
+                <input type="number" id="numFilingsInput" min="0" max="1000000" value="700">
+            </div>
+            <span id="maxFilingsMessage">Maximum number of filings reached!</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

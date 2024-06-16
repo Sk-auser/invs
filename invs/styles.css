@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(124, 167, 155);
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: space-around; /* Adjust space between the containers */
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px; /* Add padding for space around the containers */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center both horizontally and vertically */
+    background-color: hwb(184 89% 0%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(101, 61, 61, 0.1);
+    height: 80%; /* Adjust height as needed */
+    max-width: 50%; /* Adjust maximum width as needed */
+    margin-left: 20px; /* Add margin between containers */
+    position: relative; /* Position relative for absolute positioning of message */
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center both horizontally and vertically */
+    background-color: hwb(184 89% 0%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(101, 61, 61, 0.1);
+    height: 80%; /* Adjust height as needed */
+    max-width: 50%; /* Adjust maximum width as needed */
+    margin-right: 20px; /* Add margin between containers */
+}
+
+canvas {
+    border: 2px solid #333;
+    margin-bottom: 20px;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.slider {
+    width: 100%;
+    max-width: 300px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+    margin-left: 0.5cm;
+    font-size: 18px;
+    font-weight: 60;
+}
+
+label {
+    font-size: medium;
+    margin-right: 10px;
+}
+
+#maxFilingsMessage {
+    display: none;
+    color: red;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 10;
+}
