@@ -35,14 +35,14 @@ body, html {
 .left-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center; /* Center both horizontally and vertically */
     background-color: hwb(184 89% 0%);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(101, 61, 61, 0.1);
     height: 80%; /* Adjust height as needed */
-    max-width: 50%; /* Adjust maximum width as needed */
+    max-width: 500px; /* Adjust maximum width as needed */
     margin-right: 20px; /* Add margin between containers */
 }
 
@@ -91,4 +91,8 @@ label {
     right: 20px;
     top: 20px;
     z-index: 10;
+}
+
+p {
+    line-height:normal;
 }
