@@ -25,7 +25,7 @@ body, html {
     background-color: hwb(184 89% 0%);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(101, 61, 61, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 80%; /* Adjust height as needed */
     max-width: 50%; /* Adjust maximum width as needed */
     margin-left: 20px; /* Add margin between containers */
@@ -42,7 +42,7 @@ body, html {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(101, 61, 61, 0.1);
     height: 80%; /* Adjust height as needed */
-    max-width: 500px; /* Adjust maximum width as needed */
+    max-width: 470px; /* Adjust maximum width as needed */
     margin-right: 20px; /* Add margin between containers */
 }
 
